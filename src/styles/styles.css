@@ -1,0 +1,16 @@
+html,
+body {
+    background: black;
+    margin: 0;
+    overflow: hidden;
+    color: white;
+    user-select: none;
+}
+
+#controls {
+    font-family: sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    pointer-events: none;
+}

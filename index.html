@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Particle WalkerS</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mobile-detect/1.4.5/mobile-detect.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html,
+        body {
+            background: black;
+            margin: 0;
+            overflow: hidden;
+            color: white;
+            user-select: none;
+        }
+
+        #controls {
+            font-family: 'Roboto', sans-serif;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <ul>
+            <li>Mouse: influence</li>
+            <li>Click: randomize</li>
+            <li>Wheel: radius</li>
+        </ul>
+    </div>
+
+    <div id="canvas-container"></div>
+
+    <script src="src/javascript/sketch.js"></script>
+</body>
+</html>
